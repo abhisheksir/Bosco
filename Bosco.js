@@ -292,7 +292,7 @@ module.exports = bosco = async (bosco, mek) => {
             return Math.floor(Math.random() * angka) + 1
         }
         const reply = (teks) => {
-	      bosco.sendMessage(from, teks, text, { thumbnail: denis, sendEphemeral: true, quoted: mek, contextInfo: { forwardingScore: 508, isForwarded: false, "externalAdReply": { "title": `${' '}Sᴜʙsᴄʀɪʙᴇ Yᴛ : PEPE SIR${''}${''}`, "body": `Gʀᴏᴜᴘ Assɪsᴛᴇɴᴛ Bᴏᴛ`, "previewType": 'PHOTO', "thumbnailUrl": `${''}`, "thumbnail": denis, "sourceUrl": `${''}`}},})
+	      bosco.sendMessage(from, teks, text, { thumbnail: denis, sendEphemeral: true, quoted: mek, contextInfo: { forwardingScore: 508, isForwarded: false, "externalAdReply": { "title": `${' '}ᴀʙɪsʜᴇᴋ : sɪʀ${''}${''}`, "body": `Gʀᴏᴜᴘ Assɪsᴛᴇɴᴛ Bᴏᴛ`, "previewType": 'PHOTO', "thumbnailUrl": `${''}`, "thumbnail": denis, "sourceUrl": `${''}`}},})
         }
         const sendMess = (hehe, teks) => {
            bosco.sendMessage(hehe, teks, text)
@@ -660,7 +660,7 @@ const ftrol = {
            if(mime.split("/")[0] === "audio"){
            mime = Mimetype.mp4Audio
 }
-           bosco.sendMessage(to, media, type, {quoted: mek, "externalAdReply": { "title": `${' '}Sᴜʙsᴄʀɪʙᴇ Yᴛ : PEPE SIR${''}${''}`, "body": `Gʀᴏᴜᴘ Assɪsᴛᴇɴᴛ Bᴏᴛ`, "previewType": 'PHOTO', "thumbnailUrl": `${''}`, "thumbnail": denis, "sourceUrl": `${''}`}, mimetype: mime, caption: text, thumbnail: Buffer.alloc(0), contextInfo: {"mentionedJid": mids}})
+           bosco.sendMessage(to, media, type, {quoted: mek, "externalAdReply": { "title": `${' '}ғᴏx : sɪʀ${''}${''}`, "body": `Gʀᴏᴜᴘ Assɪsᴛᴇɴᴛ Bᴏᴛ`, "previewType": 'PHOTO', "thumbnailUrl": `${''}`, "thumbnail": denis, "sourceUrl": `${''}`}, mimetype: mime, caption: text, thumbnail: Buffer.alloc(0), contextInfo: {"mentionedJid": mids}})
                      
            fs.unlinkSync(filename)
 });
@@ -1314,7 +1314,7 @@ wa.me/${owner}`
            {title: 'close', description: "", rowId: `CLOSE`},
            {title: 'on', description: "", rowId: `on`},
            {title: 'off', description: "", rowId: `off`}]
-          section = [{title: "Sᴜʙsᴄɪʙᴇ Yᴛ Pᴇᴘᴇ Sɪʀ Fᴏʀ Mᴏʀᴇ Uᴘᴅᴀᴛᴇs", rows: rows}]
+          section = [{title: "ғᴏx sɪʀ", rows: rows}]
           button = {buttonText: 'SELECT', description: `*Gʀᴏᴜᴘ [ᴏᴘᴇɴ/ᴄʟᴏsᴇ]*\n*Dɪsᴀᴘᴘᴇᴀʀ Mᴇsᴀᴀɢᴇ [ᴏɴ/ᴏғғ]*`,
           sections: section, listType: 1}
           bosco.sendMessage(from, button, MessageType.listMessage, {quoted: ftroli})
@@ -2438,7 +2438,7 @@ teks = `
 `
     menubutton = [{buttonId:`${prefix}credits`,buttonText:{displayText:'CREDITS'},type:1}
 ]
- menumessage = { contentText: `${teks}`, footerText: `Sᴜʙsᴄʀɪʙᴇ Yᴛ Pᴇᴘᴇ Sɪʀ`, buttons: menubutton, headerType: 6, locationMessage: bosco2.message.locationMessage}
+ menumessage = { contentText: `${teks}`, footerText: `ғᴏx sɪʀ`, buttons: menubutton, headerType: 6, locationMessage: bosco2.message.locationMessage}
  bosco.sendMessage(from, menumessage, MessageType.buttonsMessage)
              break  
       case 'buttons5':
@@ -3483,6 +3483,5 @@ console.log('[',color('TEXT','teal'),']',`Message : ${budy} From`, color(pushnam
         }
 	}
 }
-
 
 
