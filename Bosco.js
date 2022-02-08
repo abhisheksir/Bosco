@@ -1003,52 +1003,52 @@ const ftrol = {
     break
     case 'ownermenu':
     owner1 =`
-💕 𝑶 𝑾 𝑵 𝑬 𝑹 - 𝑴 𝑬 𝑵 𝑼 ▢ 
+💕 𝑶 𝑾 𝑵 𝑬 𝑹 - 𝑴 𝑬 𝑵 𝑼 💕
 
 
-▢ ${prefix}setbgmpic
+🦋 ${prefix}setbgmpic
 
-▢ ${prefix}setthumb
+🦋 ${prefix}setthumb
 
-▢ ${prefix}clearall
+🦋 ${prefix}clearall
 
-▢ ${prefix}tobc
+🦋 ${prefix}tobc
 
-▢ ${prefix}bc
+🦋 ${prefix}bc
 
-▢ ${prefix}getquoted
+🦋 ${prefix}getquoted
 
-▢ ${prefix}restart
+🦋 ${prefix}restart
 
-▢ ${prefix}term
+🦋 ${prefix}term
 
-▢ ${prefix}block
+🦋 ${prefix}block
 
-▢ ${prefix}unblock
+🦋 ${prefix}unblock
 
-▢ ${prefix}leaveall
+🦋 ${prefix}leaveall
 
-▢ ${prefix}addcmd
+🦋 ${prefix}addcmd
 
-▢ ${prefix}delcmd
+🦋 ${prefix}delcmd
 
-▢ ${prefix}jadibot
+🦋 ${prefix}jadibot
 
-▢ ${prefix}listjadibot
+🦋 ${prefix}listjadibot
 
-▢ ${prefix}stopjadibot
+🦋 ${prefix}stopjadibot
 
-▢ ${prefix}exif
+🦋 ${prefix}exif
 
-▢ ${prefix}join
+🦋 ${prefix}join
 
-▢ ${prefix}return
+🦋 ${prefix}return
 
-▢ ${prefix}public
+🦋 ${prefix}public
 
-▢ ${prefix}self
+🦋 ${prefix}self
 
-▢ ${prefix}readall
+🦋 ${prefix}readall
 `
 catlo(owner1)
    break
@@ -1057,33 +1057,33 @@ catlo(owner1)
 ▢ 𝑮 𝑹 𝑶 𝑼 𝑷 - 𝑴 𝑬 𝑵 𝑼 ▢ 
  
 
-▢ ${prefix}add
+🦋 ${prefix}add
 
-▢ ${prefix}kick
+🦋 ${prefix}kick
 
-▢ ${prefix}promote
+🦋 ${prefix}promote
 
-▢ ${prefix}demote
+💕 ${prefix}demote
 
-▢ ${prefix}disappear
+🦋 ${prefix}disappear
 
-▢ ${prefix}group
+🦋 ${prefix}group
 
-▢ ${prefix}antilink
+💕 ${prefix}antilink
 
-▢ ${prefix}totag
+🦋 ${prefix}totag
 
-▢ ${prefix}hidetag
+💕 ${prefix}hidetag
 
-▢ ${prefix}translate
+🦋 ${prefix}translate
 
-▢ ${prefix}getdeskgc
+💕 ${prefix}getdeskgc
 
-▢ ${prefix}getbio
+🦋 ${prefix}getbio
 
-▢ ${prefix}getpp
+💕 ${prefix}getpp
 
-▢ ${prefix}getname
+🦋 ${prefix}getname
 `
 catlo(group1)
     break
@@ -1092,55 +1092,55 @@ catlo(group1)
 ▢ 𝑬 𝑫 𝑰 𝑻 - 𝑴 𝑬 𝑵 𝑼 ▢ 
 
 
-▢ ${prefix}secvn
+🦋 ${prefix}secvn
 
-▢ ${prefix}secvideo
+🦋 ${prefix}secvideo
 
-▢ ${prefix}tomp3
+🦋 ${prefix}tomp3
 
-▢ ${prefix}tomp4
+🦋 ${prefix}tomp4
 
-▢ ${prefix}toimg
+🦋 ${prefix}toimg
 
-▢ ${prefix}baby
+🦋 ${prefix}baby
 
-▢ ${prefix}bass
+🦋 ${prefix}bass
 
-▢ ${prefix}reverse
+🦋 ${prefix}reverse
 
-▢ ${prefix}slow
+🦋 ${prefix}slow
 
-▢ ${prefix}squirrel
+🦋 ${prefix}squirrel
 
-▢ ${prefix}blub
+🦋 ${prefix}blub
 
-▢ ${prefix}fat
+🦋 ${prefix}fat
 
-▢ ${prefix}imagetourl
+🦋 ${prefix}imagetourl
 
-▢ ${prefix}voice
+🦋 ${prefix}voice
 
-▢ ${prefix}nightcore
+🦋 ${prefix}nightcore
 
-▢ ${prefix}cm
+🦋 ${prefix}cm
 
-▢ ${prefix}fast
+🦋 ${prefix}fast
 
-▢ ${prefix}gemes
+🦋 ${prefix}gemes
 
-▢ ${prefix}slowvid
+🦋 ${prefix}slowvid
 
-▢ ${prefix}fastvid
+🦋 ${prefix}fastvid
  
-▢ ${prefix}reversevid
+🦋 ${prefix}reversevid
 
-▢ ${prefix}tts
+🦋 ${prefix}tts
 `
 catlo(edit1)
       break
       case 'storagemenu':
         storage1 = `
-▢ 𝑺 𝑻 𝑶 𝑹 𝑨 𝑮 𝑬 - 𝑴 𝑬 𝑵 𝑼 ▢ 
+💕 𝑺 𝑻 𝑶 𝑹 𝑨 𝑮 𝑬 - 𝑴 𝑬 𝑵 𝑼 💕 
 
 
 ▢ ${prefix}addvn
