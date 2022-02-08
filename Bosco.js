@@ -1003,7 +1003,7 @@ const ftrol = {
     break
     case 'ownermenu':
     owner1 =`
-▢ 𝑶 𝑾 𝑵 𝑬 𝑹 - 𝑴 𝑬 𝑵 𝑼 ▢ 
+💕 𝑶 𝑾 𝑵 𝑬 𝑹 - 𝑴 𝑬 𝑵 𝑼 ▢ 
 
 
 ▢ ${prefix}setbgmpic
