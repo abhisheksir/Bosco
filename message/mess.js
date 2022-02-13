@@ -1,10 +1,10 @@
 module.exports.mess = {
 	        wait: '*Wait Now*',
 			success: '*Succes*',
-			wrongFormat: '*Format Is Wrong Retry..!*',
+			wrongFormat: '*entha rameetta ith..!*',
 			error: {
 				api: '*Oops An Error Occurred*',
-				stick: '*Not That Sticker :v*',
+				stick: '*ith sticker allallo :v*',
 				Iv: '*Invalid Link*'
 			},
 			only: {
