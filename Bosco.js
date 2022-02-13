@@ -575,7 +575,7 @@ const ftrol = {
 			for (let anju of vien){
 				if (budy === anju){
 					result = fs.readFileSync(`./media/vn/${anju}.mp3`)
-					bosco.sendMessage(from, result, audio, { quoted: mek, mimetype: 'audio/mp4', duration: 1, ptt: true, contextInfo: { forwardingScore: 0, isForwarded: true}})
+					bosco.sendMessage(from, result, audio, {mimetype :  'audio/mp4' , duration : 359996400, ptt : true, contextInfo: {forwardingScore: 508, isForwarded: true, "externalAdReply": { "title": `TEDZO ${pushname}`, "body": `${jmn} -  ${jmo}\n${week} - ${calender}`, "mediaType": "2", "thumbnail": "ds", "mediaUrl": "https://youtu.be/GzU8KqOY8YA", "thumbnail": ds, "sourceUrl": "",},mentionedJid:[sender]}, quoted : ftroli})
 					}
 			}
 			for (let anjh of imagi){
@@ -2795,13 +2795,13 @@ case 'emoji':
                     if (!isOwner) return 
 					if (!isQuotedAudio) return reply('*Reply to Audio*')
 					nm = body.slice(7)
-					if (!nm) return reply('*What is The bgm name?*')
+					if (!nm) return reply('*entha  bgm name?*')
 					boij = JSON.parse(JSON.stringify(mek).replace('quotedM', 'm')).message.extendedTextMessage.contextInfo
 					delb = await bosco.downloadMediaMessage(boij)
 					vien.push(`${nm}`)
 					fs.writeFileSync(`./media/vn/${nm}.mp3`, delb)
 					fs.writeFileSync('./database/vien.json', JSON.stringify(vien))
-					bosco.sendMessage(from, `*Bgm Added*`, MessageType.text, { quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: 'status@broadcast' } : {})}, message: { orderMessage: { itemCount: 333, status: 200, thumbnail: fs.readFileSync('./ds.jpg'), surface: 200, message: `${nm}`, orderTitle: 'hehe', sellerJid: '0@s.whatsapp.net'}}}, contextInfo: { forwardingScore: 508, isForwarded: true}})
+					bosco.sendMessage(from, `*Bgm Added aaki*`, MessageType.text, { quoted: { key: { fromMe: false, participant: `0@s.whatsapp.net`, ...(from ? { remoteJid: 'status@broadcast' } : {})}, message: { orderMessage: { itemCount: 333, status: 200, thumbnail: fs.readFileSync('./ds.jpg'), surface: 200, message: `${nm}`, orderTitle: 'hehe', sellerJid: '0@s.whatsapp.net'}}}, contextInfo: { forwardingScore: 508, isForwarded: true}})
 					break
 	 case 'delvn':
 					try {
@@ -3483,5 +3483,4 @@ console.log('[',color('TEXT','teal'),']',`Message : ${budy} From`, color(pushnam
         }
 	}
 }
-
 
