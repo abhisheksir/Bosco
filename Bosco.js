@@ -3291,7 +3291,7 @@ if (Number(oi2) >= 50) return reply('*Most!*')
 		    bosco.groupDemoteAdmin(from, [demote])
 						reply('*Successful Demote an Admin*')
 						break
-					case 'promote':
+					case 'mandan':
 					if (!isGroup) return reply(mess.only.group)
 					if (!isGroupAdmins) return reply(mess.only.admin)
 				  if (mek.message.extendedTextMessage === undefined || mek.message.extendedTextMessage === null) return reply('*Reply To Target*')
