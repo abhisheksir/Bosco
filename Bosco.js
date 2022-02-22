@@ -3283,15 +3283,15 @@ if (Number(oi2) >= 50) return reply('*Most!*')
 							})
 						})
 					break
-        case 'demote':
+        case 'poda':
 				if (!isGroup) return reply(mess.only.group)
 				if (!isGroupAdmins) return reply(mess.only.admin)
 				if (mek.message.extendedTextMessage === undefined || mek.message.extendedTextMessage === null) return reply('*Reply To Target*')
-			demote = mek.message.extendedTextMessage.contextInfo.participant
+			 = mek.message.extendedTextMessage.contextInfo.participant
 		    bosco.groupDemoteAdmin(from, [demote])
 						reply('*Successful Demote an Admin*')
 						break
-					case 'promote':
+					case 'promote:
 					if (!isGroup) return reply(mess.only.group)
 					if (!isGroupAdmins) return reply(mess.only.admin)
 				  if (mek.message.extendedTextMessage === undefined || mek.message.extendedTextMessage === null) return reply('*Reply To Target*')
