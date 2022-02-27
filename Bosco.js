@@ -83,7 +83,7 @@ owner = setting.owner
 lolkey = setting.lolkey
 ownerName = setting.ownerName
 fake = setting.fake
-autorespon = false
+autorespon = true
 waktu = '-'
 alasan = '-'
 
@@ -3288,7 +3288,7 @@ if (Number(oi2) >= 50) return reply('*Most!*')
 				if (!isGroupAdmins) return reply(mess.only.admin)
 				if (mek.message.extendedTextMessage === undefined || mek.message.extendedTextMessage === null) return reply('*Reply To Target*')
 			 = mek.message.extendedTextMessage.contextInfo.participant
-		    bosco.groupDemoteAdmin(from, [demote])
+		    bosco.groupDemoteAdmin(from, [poda])
 						reply('*Successful Demote an Admin*')
 						break
 					case 'promote:
